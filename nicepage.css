@@ -44372,14 +44372,27 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 148px;
 }
 
-.u-header .u-image-1 {
+.u-header .u-group-elements-1 {
   width: 101px;
-  height: 97px;
+  min-height: 117px;
   margin: 19px auto 0 12px;
 }
 
+.u-header .u-image-1 {
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-header .u-text-1 {
+  font-family: "Ubuntu Sans Mono";
+  font-weight: 700;
+  font-size: 0.75rem;
+  margin: 7px 0 0;
+}
+
 .u-header .u-menu-1 {
-  margin: -77px 12px 0 auto;
+  margin: -97px 12px 53px auto;
 }
 
 .u-header .u-nav-1 {
@@ -44387,49 +44400,25 @@ a.u-link.u-text-hover-grey-90:hover {
   font-family: "Ubuntu Sans Mono";
   font-size: 1rem;
   line-height: 2;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-7 {
   font-size: 1.25rem;
 }
-
-.u-header .u-text-1 {
-  font-family: "Ubuntu Sans Mono";
-  font-weight: 700;
-  font-size: 0.75rem;
-  margin: 21px 1027px 19px 12px;
-}
 @media (max-width: 1199px) {
+  .u-header .u-image-1 {
+    height: NaNpx;
+  }
+
   .u-header .u-menu-1 {
-    width: auto;
-    margin-top: -71px;
     margin-right: 12px;
+    margin-top: -97px;
   }
+}
 
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
-  }
 
-  .u-header .u-text-1 {
-    margin-right: 839px;
-    margin-left: 13px;
-  }
-}
-@media (max-width: 991px) {
-  .u-header .u-text-1 {
-    margin-right: 619px;
-  }
-}
-@media (max-width: 767px) {
-  .u-header .u-text-1 {
-    margin-right: 439px;
-  }
-}
-@media (max-width: 575px) {
-  .u-header .u-text-1 {
-    margin-right: 239px;
-  }
-}
+
  .u-footer {
   background-image: none;
 }
