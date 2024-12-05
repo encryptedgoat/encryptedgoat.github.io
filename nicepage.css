@@ -44382,6 +44382,7 @@ a.u-link.u-text-hover-grey-90:hover {
   height: auto;
   margin-top: 0;
   margin-bottom: 0;
+  --radius: 17px;
 }
 
 .u-header .u-text-1 {
@@ -44400,7 +44401,6 @@ a.u-link.u-text-hover-grey-90:hover {
   font-family: "Ubuntu Sans Mono";
   font-size: 1rem;
   line-height: 2;
-  letter-spacing: normal;
 }
 
 .u-header .u-nav-7 {
@@ -44414,6 +44414,10 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-menu-1 {
     margin-right: 12px;
     margin-top: -97px;
+  }
+
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
   }
 }
 
