@@ -44447,7 +44447,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 94px;
+  min-height: 88px;
 }
 
 .u-header .u-group-elements-1 {
@@ -44472,10 +44472,11 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -58px 13px 23px auto;
+  margin: -58px 13px 13px auto;
 }
 
 .u-header .u-nav-1 {
+  font-weight: 400;
   font-family: "Ubuntu Sans Mono";
   font-size: 0.875rem;
   line-height: 2;
@@ -44496,7 +44497,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-nav-1 {
     letter-spacing: normal;
-    font-weight: 400;
   }
 }
 
