@@ -21,10 +21,15 @@
   padding: 0 29px;
 }
 
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  margin: 20px 0 0;
+}
+
 .u-section-1 .u-video-1 {
   height: 416px;
   transition-duration: 0.5s;
-  margin: 0;
+  margin: 20px 0 0;
 }
 
 .u-section-1 .embed-responsive-1 {
